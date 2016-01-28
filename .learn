@@ -1,6 +1,7 @@
 tags:
-  - a tag
+  - stop propogation
+  - jquery
 languages:
-  - a language
+  - jQuery
 resources: 
   - 0
