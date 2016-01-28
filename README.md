@@ -16,6 +16,5 @@ When you click on one of the lights, like the top light of the first fixture, th
 
 Ideally, we want to be able to click on the lights and only have that specific light change value. Your job is to edit the code in `js/script.js` to fix up the existing code.
 
-There are tests to make sure that you're on the right track!
-
+Currently, three tests fail. These tests check to see that the click event on the light fixture isn't fired when you click on an individual light. You'll want to make sure to pass all the tests. 
 

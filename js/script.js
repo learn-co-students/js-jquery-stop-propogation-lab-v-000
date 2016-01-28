@@ -11,6 +11,7 @@ $(document).ready(function() {
 function lightActive(){
   $('.light').on('click', function(){
       $(this).toggleClass("active");
+      console.log("background purple")
   });
 }
 
