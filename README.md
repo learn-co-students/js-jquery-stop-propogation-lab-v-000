@@ -1,12 +1,11 @@
-# Stop Propogation Lab
+# Stop Propagation Lab
 
 ## Objectives
-+ use stopPropogation to prevent event handlers from bubbling up
++ use stopPropagation to prevent event handlers from bubbling up
 
 ## Intro
 
 You've been hired to fix some major issues with a traffic light. Your job is to refactor the existing code to make sure that the events firing on the page are only firing them you want them to.
-
 
 
 ## Instructions
