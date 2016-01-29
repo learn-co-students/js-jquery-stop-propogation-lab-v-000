@@ -10,3 +10,5 @@ hired to fix major bubbling up bugs becuase you're a pro. refactor prewritten co
 
 ## Instructions
  need to work in browser and with tests
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-jquery-stop-propogation-lab' title='Stop Propogation Lab'>Stop Propogation Lab</a> on Learn.co and start learning to code for free.</p>
