@@ -1,0 +1,37 @@
+.active {
+  background-color: purple;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+
+.light {
+    box-shadow: 0 0 5px rgba(0,0,0, .8);
+    overflow: hidden;
+    padding: 0 0 4px;
+    width: 120px;
+    display: inline-block;
+}
+
+
+.light span{
+    border-radius: 100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    display: block;
+    height: 100px;
+    margin: 4px auto 0;
+    width: 100px;
+}
+
