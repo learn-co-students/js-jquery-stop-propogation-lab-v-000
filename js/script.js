@@ -19,7 +19,6 @@ function redLight(){
   });
 }
 
-
 function yellowLight(){
   $(".yellowLight").on('click', function(event){
     $(this).toggleClass("yellow");
@@ -33,4 +32,3 @@ function greenLight(){
     event.stopPropagation();
   });
 }
-
