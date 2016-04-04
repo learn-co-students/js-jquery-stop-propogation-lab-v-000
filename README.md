@@ -5,7 +5,7 @@
 
 ## Intro
 
-You've been hired to fix some major issues with a traffic light. Your job is to refactor the existing code to make sure that the events firing on the page are only firing them you want them to.
+You've been hired to fix some major issues with a traffic light. Your job is to modify the existing code to make sure that the events firing on the page are only firing them you want them to.
 
 
 ## Instructions
