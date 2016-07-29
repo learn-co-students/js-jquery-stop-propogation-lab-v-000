@@ -5,7 +5,7 @@ $(document).ready(function() {
   yellowLight();
   greenLight();
 
-  
+
 });
 
 function lightActive(){
@@ -32,5 +32,4 @@ function greenLight(){
   $(".greenLight").on('click', function(){
     $(this).toggleClass("green");
   });
-}
-
+};
