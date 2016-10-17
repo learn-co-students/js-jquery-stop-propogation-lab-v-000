@@ -25,7 +25,7 @@
 
 
 .light span{
-    border-radius: 100px;
+    border-radius: 1000px;
     border-style: solid;
     border-color: black;
     border-width: 5px;
@@ -34,4 +34,3 @@
     margin: 4px auto 0;
     width: 100px;
 }
-
