@@ -5,8 +5,9 @@ $(document).ready(function() {
   yellowLight();
   greenLight();
 
-  
+
 });
+
 
 function lightActive(){
   $('.light').on('click', function(){
@@ -16,21 +17,24 @@ function lightActive(){
 }
 
 function redLight(){
-  $(".redLight").on('click', function(){
+  $(".redLight").on('click', function(event){
     $(this).toggleClass("red");
+    event.stopPropagation();
   });
+
 }
 
 
 function yellowLight(){
-  $(".yellowLight").on('click', function(){
+  $(".yellowLight").on('click', function(event){
     $(this).toggleClass("yellow");
+    event.stopPropagation();
   });
 }
 
 function greenLight(){
-  $(".greenLight").on('click', function(){
+  $(".greenLight").on('click', function(event){
     $(this).toggleClass("green");
+    event.stopPropagation();
   });
 }
-
