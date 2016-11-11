@@ -14,7 +14,6 @@
   background-color: green;
 }
 
-
 .light {
     box-shadow: 0 0 5px rgba(0,0,0, .8);
     overflow: hidden;
@@ -23,8 +22,7 @@
     display: inline-block;
 }
 
-
-.light span{
+.light span {
     border-radius: 100px;
     border-style: solid;
     border-color: black;
@@ -34,4 +32,3 @@
     margin: 4px auto 0;
     width: 100px;
 }
-
