@@ -23,8 +23,7 @@
     display: inline-block;
 }
 
-
-.light span{
+.light span {
     border-radius: 100px;
     border-style: solid;
     border-color: black;
