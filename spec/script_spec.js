@@ -71,12 +71,12 @@ describe('Traffic Lights', function() {
     greenLight();
     $('.greenLight:first').click();
     expect($('.greenLight:first')[0].className).toEqual("greenLight green");
-        expect($('.light:first')[0].className).toEqual("light");
+    expect($('.light:first')[0].className).toEqual("light");
 
   });
 
 
-  
+
 
 
 
