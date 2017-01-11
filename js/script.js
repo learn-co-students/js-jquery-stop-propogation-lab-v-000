@@ -16,21 +16,24 @@ function lightActive(){
 }
 
 function redLight(){
-  $(".redLight").on('click', function(){
+  $(".redLight").on('click', function(e){
     $(this).toggleClass("red");
+    e.stopPropagation();
   });
 }
 
 
 function yellowLight(){
-  $(".yellowLight").on('click', function(){
+  $(".yellowLight").on('click', function(e){
     $(this).toggleClass("yellow");
+    e.stopPropagation();
   });
 }
 
 function greenLight(){
-  $(".greenLight").on('click', function(){
+  $(".greenLight").on('click', function(e){
     $(this).toggleClass("green");
+    e.stopPropagation();
   });
 }
 
